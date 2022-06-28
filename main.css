@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Caveat:wght@600&family=Lobster+Two:ital,wght@0,700;1,400&family=Montserrat:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Roboto:ital@1&display=swap');
+body{
+    margin:0;
+    font-family: 'Cardo', serif;
+    background-color: rgb(27, 7, 75);
+}
+.menubar{
+    padding: 0.3rem;
+    background-color: rgb(96, 125, 188);
+    display: flex;
+}
+.istriangle{
+    margin: 1rem;
+}
+.trianglequiz{
+    margin: 1rem;
+}
+.hypotenuse{
+    margin: 1rem;
+}
+.area{
+    margin: 1rem;
+}
+.link{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.heading{
+    font-size: xx-large;
+     text-align: center; 
+     color:white
+}
+.para{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(96, 125, 188);
+    font-size: xx-large;
+    color: white;
+
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+ .angle-input{
+    margin: 1rem;
+}
+.angle-input{
+    width: 40%;
+    padding: 0.5rem;
+}
+.name{
+    color: white;
+    font-weight: bold;
+    font-size:larger ;
+}
+#is-triangle-btn{
+    border-color:rgb(96, 125, 188);
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(96, 125, 188);
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    margin-left:37%;
+    width: 30%;
+    color:white
+}
+#output{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-align: center;
+    color:white
+}
+/* quiz form */
+h1{
+    color: white;
+    text-align: center;
+}
+.quiz-form{
+    text-align: center;
+}
+.question-container{
+    font-size: xx-large;
+    color: white;
+
+}
+#submit-answer-btn{
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    background-color:rgb(96, 125, 188);
+    border-radius: 0.7rem;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+/* hypotenuse */
+.formula{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(96, 125, 188);;
+    font-size: xx-large;
+    color:white ;
+}
+label{
+    margin: 0rem;
+    font-size: xx-large;
+    color: white;
+}
+.side-input{
+    border-width: 0.3rem;
+    color: white;
+    border-color: white;
+    background-color: rgb(27, 7, 75);
+    padding: 0.5rem;
+    margin: 2em;
+    width: 40%;
+}
+#hypotenuse-btn{
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    border-color: rgb(96, 125, 188);
+    border-radius: 0.8rem;
+    background-color: rgb(96, 125, 188);
+    margin: 1rem;
+    padding: 1rem;
+}
+/* area */
+.areaformula{
+    margin: auto;
+    background-color: rgb(96, 125, 188);;
+    margin-bottom: 3rem;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    width: 50%;
+}
+.bnh-input{
+    color: white;
+    border-color: rgb(96, 125, 188);
+    background-color: rgb(27, 7, 75);
+    border-width: 5px;
+    padding: 0.5rem;
+    width: 20%;
+}
+.height{
+    margin-left: 50px;
+}
+#check-area-btn{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    border-color: rgb(96, 125, 188);
+    background-color: rgb(96, 125, 188);
+    margin: 3rem;
+    width: 10%;
+}
+::placeholder{
+    color: white;
+}

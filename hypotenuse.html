@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet" />
+    <title>Calculate Hypotenuse</title>
+  </head>
+  <body>
+    <div class="menubar">
+      <nav class="istriangle">
+        <a class="link" href="triangle.html">Is Triangle?</a>
+      </nav>
+      <nav class="trianglequiz">
+        <a class="link" href="quiz.html">Triangle Quiz</a>
+      </nav>
+      <nav class="hypotenuse">
+        <a class="link" href="hypotenuse.html">Calculate Hypotenuse</a>
+      </nav>
+      <nav class="area">
+        <a class="link" href="area.html"> Area Of Triangle</a>
+      </nav>
+    </div>
+    <div class="container">
+      <h1 class="heading-hypo">Calculate Hypotenuse</h1>
+      <div class="formula">
+        Hypotenuse Formula: c = √(a² + b²)
+      </div>
+      <label>a =</label>
+      <input type="number" class="side-input" />
+      <br>
+      <label>b =</label>
+      <input type="number" class="side-input" />
+      <br>
+      <button id="hypotenuse-btn">Calculate Hypotenuse</button>
+      <div id="output"></div>
+    </div>
+    <script src="hypotenuse.js"></script>
+  </body>
+</html>
